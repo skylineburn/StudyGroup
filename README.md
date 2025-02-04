@@ -1,1 +1,1 @@
-# StudyGroup.github.io
+# StudyGroup
