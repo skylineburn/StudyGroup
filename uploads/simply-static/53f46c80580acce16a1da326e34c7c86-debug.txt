@@ -1,0 +1,1219 @@
+[2025-02-07 10:09:07] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-02-07 10:09:07] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2025-02-07 10:09:07] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-02-07 10:09:07] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-02-07 10:09:07] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-02-07 10:09:07] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-02-07 10:09:08] [class-ss-setup-task.php:33] Creating archive directory: E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947\
+[2025-02-07 10:09:08] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/StudyGroupLagoon/
+[2025-02-07 10:09:08] [class-ss-setup-task.php:82] Adding additional URL to queue: http://localhost/StudyGroupLagoon/
+[2025-02-07 10:09:08] [class-ss-setup-task.php:169] File doesn't exist: E:/wamp64/www/StudyGroupLagoon/additional-directory/
+[2025-02-07 10:09:08] [class-ss-setup-task.php:169] File doesn't exist: E:/wamp64/www/StudyGroupLagoon/additional-file.html
+[2025-02-07 10:09:08] [class-ss-setup-task.php:146] File E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/feed/index.html exists; adding to queue as: http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.html
+[2025-02-07 10:09:08] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/StudyGroupLagoon/index.php/sitemap.xml
+[2025-02-07 10:09:08] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://localhost/StudyGroupLagoon/index.php/sitemap_index.xml
+[2025-02-07 10:09:08] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-02-07 10:09:08] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-07 10:09:08] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-07 10:09:08] [class-ss-fetch-urls-task.php:69] Total pages: 4; Pages remaining: 4
+[2025-02-07 10:09:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/
+[2025-02-07 10:09:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 4
+[2025-02-07 10:09:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc441abc-fS3eXz.tmp
+[2025-02-07 10:09:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/?simply_static_page=1
+[2025-02-07 10:09:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/?simply_static_page=1
+[2025-02-07 10:09:08] [class-ss-url-fetcher.php:103] Filesize: 74146 bytes
+[2025-02-07 10:09:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-07 10:09:08] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-02-07 10:09:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc441abc-fS3eXz.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/index.html
+[2025-02-07 10:09:08] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:158] Adding 95 URLs to the queue
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:10] [class-ss-page.php:119] Checking Content Identical:f1b616eb2340b3f6e24b9b316b0524a6191044b6===. Value: FALSE
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.html
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 4
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc67bfd1-JLYhOX.tmp
+[2025-02-07 10:09:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.html?simply_static_page=2
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.html?simply_static_page=2
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.html
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc67bfd1-JLYhOX.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.html
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:10] [class-ss-page.php:119] Checking Content Identical:e61965b86f28a1e6933cd0243b7490e154e53762===. Value: FALSE
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/sitemap.xml
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 4
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/sitemap.xml
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/sitemap_index.xml
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 4
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/sitemap_index.xml
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 4 pages/files
+[2025-02-07 10:09:10] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-07 10:09:10] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-07 10:09:10] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:69] Total pages: 99; Pages remaining: 95
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-login.php
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/wp-login.php
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/register-2/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc695229-sbqJ69.tmp
+[2025-02-07 10:09:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/register-2/?simply_static_page=6
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/register-2/?simply_static_page=6
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:103] Filesize: 302 bytes
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc69a066-dPhJoI.tmp
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/register-2/
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:103] Filesize: 302 bytes
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/register/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/register/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/login/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/login/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/events-schedule/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/events-schedule/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/study-materials/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/study-materials/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/blog/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/blog/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/gallery/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/gallery/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/contact/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/contact/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/study-group-adalah-komunitas-belajar-yang-bertujuan-untuk-membantu-pelajar-dalam-mencapai-tujuan-akademis-mereka-melalui-diskusi-kolaborasi-dan-berbagi-sumber-daya-kami-percaya-bahwa-belajar-bersam/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/study-group-adalah-komunitas-belajar-yang-bertujuan-untuk-membantu-pelajar-dalam-mencapai-tujuan-akademis-mereka-melalui-diskusi-kolaborasi-dan-berbagi-sumber-daya-kami-percaya-bahwa-belajar-bersam/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/2024/12/18/ulasan-buku-atomic-habits-oleh-james-clear/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/2024/12/18/ulasan-buku-atomic-habits-oleh-james-clear/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/2024/12/18/5-tips-belajar-efektif-untuk-meningkatkan-prestasi-akademis/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/2024/12/18/5-tips-belajar-efektif-untuk-meningkatkan-prestasi-akademis/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/2024/12/18/form-anggota/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/2024/12/18/form-anggota/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/author/baru/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/author/baru/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/2024/12/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/2024/12/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/category/uncategorized/
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/category/uncategorized/
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/uploads/2024/12/cropped-download-2-e1734581658194.jpeg
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc6b038b-b2Glln.tmp
+[2025-02-07 10:09:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/uploads/2024/12/cropped-download-2-e1734581658194.jpeg?simply_static_page=21
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/uploads/2024/12/cropped-download-2-e1734581658194.jpeg?simply_static_page=21
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:103] Filesize: 3473 bytes
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/cropped-download-2-e1734581658194.jpeg
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc6b038b-b2Glln.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/uploads/2024/12/cropped-download-2-e1734581658194.jpeg
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:10] [class-ss-page.php:119] Checking Content Identical:38c05620a8d1c6314bce167fb83289abb21a019e===. Value: FALSE
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/jquery/jquery.min.js
+[2025-02-07 10:09:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 99
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc6b7ebd-Ose5zg.tmp
+[2025-02-07 10:09:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/jquery/jquery.min.js?simply_static_page=22
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/jquery/jquery.min.js?simply_static_page=22
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-02-07 10:09:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc6b7ebd-Ose5zg.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/jquery/jquery.min.js
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc70cbfe-6Ci2Mz.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=23
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=23
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc70cbfe-6Ci2Mz.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc739f3d-ZKUTBU.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js?simply_static_page=24
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js?simply_static_page=24
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 388 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc739f3d-ZKUTBU.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:ec9bddb891515f20d705dd3276cac39ee587aede===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/hoverintent-js.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc743c5b-rprjNO.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/hoverintent-js.min.js?simply_static_page=25
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/hoverintent-js.min.js?simply_static_page=25
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 1718 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/hoverintent-js.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc743c5b-rprjNO.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/hoverintent-js.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:207367a74e6a6f32e5b1e9403b814d16480151a5===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/admin-bar.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc75156e-AoxXMw.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/admin-bar.min.js?simply_static_page=26
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/admin-bar.min.js?simply_static_page=26
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 3487 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/admin-bar.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc75156e-AoxXMw.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/admin-bar.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:036575b5632cdc5033bd44b6dd90ab59530375d6===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/common.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc75e06c-EP2g9t.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/common.min.js?simply_static_page=27
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/common.min.js?simply_static_page=27
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 4290 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-event-manager/assets/js/common.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc75e06c-EP2g9t.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/wp-event-manager/assets/js/common.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:a3b1223014e9926d7ec8c25bafa3b6caf2e842b3===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/jquery/ui/core.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc76f77f-eagwx3.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/jquery/ui/core.min.js?simply_static_page=28
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/jquery/ui/core.min.js?simply_static_page=28
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 21464 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/ui/core.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc76f77f-eagwx3.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/jquery/ui/core.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:e9837519aca724457792e2d5ee98a97a0367cdf9===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc78dfa8-jjKsJK.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.js?simply_static_page=29
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.js?simply_static_page=29
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 15863 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc78dfa8-jjKsJK.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:6cdff5166f20b7583f684f7d8b82015413b97da2===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/skip-link-focus-fix.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc7a6cad-OAF7ml.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/skip-link-focus-fix.min.js?simply_static_page=30
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/skip-link-focus-fix.min.js?simply_static_page=30
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 476 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/education-hub/js/skip-link-focus-fix.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc7a6cad-OAF7ml.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/themes/education-hub/js/skip-link-focus-fix.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:a375d446dd7a8c6565d705824c762c72b93f13df===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc7b378d-bD9LZa.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js?simply_static_page=31
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js?simply_static_page=31
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 21941 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc7b378d-bD9LZa.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/themes/education-hub/third-party/cycle2/js/jquery.cycle2.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:9205f47873379a27807df0deb2631fd4c7cd1560===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/custom.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc7c84c7-dFOBo3.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/custom.min.js?simply_static_page=32
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/custom.min.js?simply_static_page=32
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 646 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/education-hub/js/custom.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc7c84c7-dFOBo3.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/themes/education-hub/js/custom.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:1e2128d6b248bc12d752c8c4be5235d2c7d44801===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/navigation.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc7d2c4a-oPGgvI.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/navigation.min.js?simply_static_page=33
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/js/navigation.min.js?simply_static_page=33
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:103] Filesize: 3526 bytes
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/education-hub/js/navigation.min.js
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc7d2c4a-oPGgvI.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/themes/education-hub/js/navigation.min.js
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:11] [class-ss-page.php:119] Checking Content Identical:088e31fe8efa90c8145ea31f2ad36cb2d118731a===. Value: FALSE
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/underscore.min.js
+[2025-02-07 10:09:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 99
+[2025-02-07 10:09:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc7e7b4f-1DGmkw.tmp
+[2025-02-07 10:09:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/underscore.min.js?simply_static_page=34
+[2025-02-07 10:09:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/underscore.min.js?simply_static_page=34
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 18878 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/underscore.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc7e7b4f-1DGmkw.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/underscore.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:9697e3fe2d92c79debd82478603d4b59fc249714===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/wp-util.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc824100-pAujQq.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/wp-util.min.js?simply_static_page=35
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/wp-util.min.js?simply_static_page=35
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 1426 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/wp-util.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc824100-pAujQq.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/wp-util.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:0a77594006c8d86fdcc0adbc2b9aecaef3869586===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/dist/hooks.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc82e656-mBknud.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/dist/hooks.min.js?simply_static_page=36
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/dist/hooks.min.js?simply_static_page=36
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 4776 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc82e656-mBknud.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/dist/hooks.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:a136ebf5054fdc19729b3592005fe0fefec4bb4c===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/js/dist/i18n.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc83bed8-38uAj1.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/js/dist/i18n.min.js?simply_static_page=37
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/js/dist/i18n.min.js?simply_static_page=37
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc83bed8-38uAj1.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/js/dist/i18n.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc8561de-3mZcgq.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.js?simply_static_page=38
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.js?simply_static_page=38
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 4366 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc8561de-3mZcgq.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:de12f676dcb87743c24a18ba64dc0a3746f7fb18===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc8667fa-DNbTno.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.js?simply_static_page=39
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.js?simply_static_page=39
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 2670 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc8667fa-DNbTno.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:64acc1a99be659ab310a4371ff858dad31f0bec1===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc876092-Y7PiHV.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.min.js?simply_static_page=40
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.min.js?simply_static_page=40
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 8308 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc876092-Y7PiHV.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:b47de9386586d4ed9acb42cf001cbc2505b1ea10===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.date.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc88f810-IsJJK4.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.date.min.js?simply_static_page=41
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.date.min.js?simply_static_page=41
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 12578 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.date.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc88f810-IsJJK4.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.date.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:46a5f1fe7850e00770936468c0a0531e1f21582a===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.time.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc8a2558-31wXTz.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.time.min.js?simply_static_page=42
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.time.min.js?simply_static_page=42
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 8895 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.time.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc8a2558-31wXTz.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/pickadate/picker.time.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:511a81d84ab7451adb101a8d7ec654e52d3cc92b===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/common.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc8c0727-ch4KEC.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/common.min.js?simply_static_page=43
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/common.min.js?simply_static_page=43
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 2541 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/common.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc8c0727-ch4KEC.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/common.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:c4e8e93b95f835b81c064773dd7f6687b8efc168===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc8da030-veeSw1.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.js?simply_static_page=44
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.js?simply_static_page=44
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 37380 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc8da030-veeSw1.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:12] [class-ss-page.php:119] Checking Content Identical:f67f53f06f5d011b4fc7dbb81f8e5109ded3199d===. Value: FALSE
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/common-frontend.min.js
+[2025-02-07 10:09:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 99
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc8ed552-5GhNN4.tmp
+[2025-02-07 10:09:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/common-frontend.min.js?simply_static_page=45
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/common-frontend.min.js?simply_static_page=45
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:103] Filesize: 1764 bytes
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/common-frontend.min.js
+[2025-02-07 10:09:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc8ed552-5GhNN4.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/common-frontend.min.js
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:61e4b1ee2d156a4ff673cd95dbb287dc323ca6f9===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-modal.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc905baf-OPMsOa.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-modal.min.js?simply_static_page=46
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-modal.min.js?simply_static_page=46
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 4124 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-modal.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc905baf-OPMsOa.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-modal.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:bd7a99f25ea14d59115a4ee29619b11379ef8366===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/jquery-form/jquery-form.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc915cf8-OYz6qE.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/jquery-form/jquery-form.min.js?simply_static_page=47
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/jquery-form/jquery-form.min.js?simply_static_page=47
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 14452 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/jquery-form/jquery-form.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc915cf8-OYz6qE.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/jquery-form/jquery-form.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:09f1fa3fadfb7960994ecb183ee1b1c8f679dc7b===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/fileupload/fileupload.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc931559-F6V4hE.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/fileupload/fileupload.js?simply_static_page=48
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/fileupload/fileupload.js?simply_static_page=48
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 9808 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/fileupload/fileupload.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc931559-F6V4hE.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/fileupload/fileupload.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:af618b53042abd38396bc602921f9970cc4930e1===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-functions.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc94e5fa-61CEmR.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-functions.min.js?simply_static_page=49
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-functions.min.js?simply_static_page=49
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 12175 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-functions.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc94e5fa-61CEmR.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-functions.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:ae4a19c4a5a0930366ef7cf263989027982de627===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc962cae-hzgW9U.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js?simply_static_page=50
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js?simply_static_page=50
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 384 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc962cae-hzgW9U.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:c437bfe00812d31b61f93e75bc8b0ed9cd15ba65===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc96c031-tcsEQ8.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js?simply_static_page=51
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js?simply_static_page=51
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 9731 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc96c031-tcsEQ8.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:2f71eeca04901f779998f7bd8c35d7ef09feec34===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/select2.full.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc9847fd-fbQIcI.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/select2.full.min.js?simply_static_page=52
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/select2.full.min.js?simply_static_page=52
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 79212 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/select2/select2.full.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc9847fd-fbQIcI.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/select2/select2.full.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:aa40e683c82dd844db73fde37048cf7fc145135e===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/i18n/en.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc9a903a-KmDA5r.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/i18n/en.js?simply_static_page=53
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/i18n/en.js?simply_static_page=53
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 844 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/select2/i18n/en.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc9a903a-KmDA5r.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/select2/i18n/en.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:6bb5c48e18078a5688c6f7e187cf3c44057cbc1e===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc9b8362-d9iIlA.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.js?simply_static_page=54
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.js?simply_static_page=54
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 9103 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc9b8362-d9iIlA.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:92337c52d8f18153dbb728fb1c7c6e4baf99de11===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 4 of 99 pages/files
+[2025-02-07 10:09:13] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-07 10:09:13] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-07 10:09:13] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:69] Total pages: 99; Pages remaining: 45
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc9ca91f-oWGPeL.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js?simply_static_page=55
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js?simply_static_page=55
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 12237 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc9ca91f-oWGPeL.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:58d134aeb83c42997cbde0c9913ab4533b5a2f00===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-profile.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc9e6f86-NMtHd1.tmp
+[2025-02-07 10:09:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-profile.min.js?simply_static_page=56
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-profile.min.js?simply_static_page=56
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:103] Filesize: 3292 bytes
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-profile.min.js
+[2025-02-07 10:09:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc9e6f86-NMtHd1.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-profile.min.js
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:13] [class-ss-page.php:119] Checking Content Identical:16c7037a3316ef9b441a52ca9d2b1cfcb16894ec===. Value: FALSE
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-account.min.js
+[2025-02-07 10:09:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 99
+[2025-02-07 10:09:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbc9f40a6-pTcotg.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-account.min.js?simply_static_page=57
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/js/um-account.min.js?simply_static_page=57
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/js/um-account.min.js
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbc9f40a6-pTcotg.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/js/um-account.min.js
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:7192289b2c41d6ce1d8083f11bafc653330a876b===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/xmlrpc.php
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/xmlrpc.php
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/feed/
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/feed/
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/comments/feed/
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/comments/feed/
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/css/dashicons.min.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbca0e173-mas9n7.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/css/dashicons.min.css?simply_static_page=61
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/css/dashicons.min.css?simply_static_page=61
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 59190 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dashicons.min.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbca0e173-mas9n7.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/css/dashicons.min.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:1ad027600886e158866707d3fb9ac9efba71a7eb===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/css/admin-bar.min.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbca4dede-jprpD2.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/css/admin-bar.min.css?simply_static_page=62
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/css/admin-bar.min.css?simply_static_page=62
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 20182 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/admin-bar.min.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbca4dede-jprpD2.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/css/admin-bar.min.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:113a0dab758391b88ae8cab0214169c60927fb0e===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-includes/css/dist/block-library/style.min.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbca63f94-ogfk5J.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-includes/css/dist/block-library/style.min.css?simply_static_page=63
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-includes/css/dist/block-library/style.min.css?simply_static_page=63
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbca63f94-ogfk5J.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-includes/css/dist/block-library/style.min.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/buddypress/bp-members/blocks/members/index.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbca80812-wNFhPv.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/buddypress/bp-members/blocks/members/index.css?simply_static_page=64
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/buddypress/bp-members/blocks/members/index.css?simply_static_page=64
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 3807 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/buddypress/bp-members/blocks/members/index.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbca80812-wNFhPv.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/buddypress/bp-members/blocks/members/index.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:90cf9b2e71466b4753df32e96caba3a46874845b===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbca8c021-It1JPS.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?simply_static_page=65
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?simply_static_page=65
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 30236 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/bbpress/templates/default/css/bbpress.min.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbca8c021-It1JPS.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:f1873de08853cac9b0de1617dbae3e4e65072dbe===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/buddypress/bp-core/css/admin-bar.min.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcaa5b38-ZMmibf.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/buddypress/bp-core/css/admin-bar.min.css?simply_static_page=66
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/buddypress/bp-core/css/admin-bar.min.css?simply_static_page=66
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 1648 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/buddypress/bp-core/css/admin-bar.min.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcaa5b38-ZMmibf.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/buddypress/bp-core/css/admin-bar.min.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:904eae5a174df6f1bc6b8ef0c2b0c546fffafd5b===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/css/frontend.min.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcab759c-t0oZUk.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/css/frontend.min.css?simply_static_page=67
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/css/frontend.min.css?simply_static_page=67
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 135259 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-event-manager/assets/css/frontend.min.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcab759c-t0oZUk.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/wp-event-manager/assets/css/frontend.min.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:85339c5a549ce3a114928637e77924ece841ae4e===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-ui/jquery-ui.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcad415e-XFZXn8.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-ui/jquery-ui.css?simply_static_page=68
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-ui/jquery-ui.css?simply_static_page=68
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 22910 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-event-manager/assets/js/jquery-ui/jquery-ui.css
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcad415e-XFZXn8.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/wp-event-manager/assets/js/jquery-ui/jquery-ui.css
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:14] [class-ss-page.php:119] Checking Content Identical:edde7cd8847b96554fe3dfe9a91198e424753b31===. Value: FALSE
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.css
+[2025-02-07 10:09:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 99
+[2025-02-07 10:09:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcaf110b-0XSu73.tmp
+[2025-02-07 10:09:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.css?simply_static_page=69
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.css?simply_static_page=69
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:103] Filesize: 1423 bytes
+[2025-02-07 10:09:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcaf110b-0XSu73.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/wp-event-manager/assets/js/jquery-timepicker/jquery.timepicker.min.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:15] [class-ss-page.php:119] Checking Content Identical:74a9d615f1f6c3974edb790a58cc802d09ad25e8===. Value: FALSE
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/css/wpem-grid.min.css
+[2025-02-07 10:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 99
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcb0a955-dt1IeN.tmp
+[2025-02-07 10:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/css/wpem-grid.min.css?simply_static_page=70
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/css/wpem-grid.min.css?simply_static_page=70
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:103] Filesize: 56553 bytes
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-event-manager/assets/css/wpem-grid.min.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcb0a955-dt1IeN.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/wp-event-manager/assets/css/wpem-grid.min.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:15] [class-ss-page.php:119] Checking Content Identical:26fa207dddf4f028d5de279bc80aeab7a7f66716===. Value: FALSE
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/fonts/style.css
+[2025-02-07 10:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 99
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcb248ab-9EXiHT.tmp
+[2025-02-07 10:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/fonts/style.css?simply_static_page=71
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/wp-event-manager/assets/fonts/style.css?simply_static_page=71
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:103] Filesize: 30052 bytes
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-event-manager/assets/fonts/style.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcb248ab-9EXiHT.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/wp-event-manager/assets/fonts/style.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:15] [class-ss-page.php:119] Checking Content Identical:1805d56bb3cb21afe33746b0b7d0b20d627c6a78===. Value: FALSE
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/third-party/font-awesome/css/font-awesome.min.css
+[2025-02-07 10:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 99
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcb41485-gIkLS6.tmp
+[2025-02-07 10:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/third-party/font-awesome/css/font-awesome.min.css?simply_static_page=72
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/third-party/font-awesome/css/font-awesome.min.css?simply_static_page=72
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:103] Filesize: 31617 bytes
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/education-hub/third-party/font-awesome/css/font-awesome.min.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcb41485-gIkLS6.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/themes/education-hub/third-party/font-awesome/css/font-awesome.min.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:15] [class-ss-page.php:119] Checking Content Identical:f350fc85d2690e6e7bac436f03dcf4319fbd6cf0===. Value: FALSE
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/style.css
+[2025-02-07 10:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 99
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcb5dbd8-a8BrVi.tmp
+[2025-02-07 10:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/style.css?simply_static_page=73
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/style.css?simply_static_page=73
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:103] Filesize: 93545 bytes
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/education-hub/style.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcb5dbd8-a8BrVi.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/themes/education-hub/style.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:15] [class-ss-page.php:119] Checking Content Identical:72d20350b57719da6886fe932c8bb1cc87827058===. Value: FALSE
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/css/blocks.css
+[2025-02-07 10:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 99
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcb80f12-DyEQyq.tmp
+[2025-02-07 10:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/css/blocks.css?simply_static_page=74
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/themes/education-hub/css/blocks.css?simply_static_page=74
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:103] Filesize: 3238 bytes
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/education-hub/css/blocks.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcb80f12-DyEQyq.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/themes/education-hub/css/blocks.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:15] [class-ss-page.php:119] Checking Content Identical:06a7a0daeffd32ac272989b772cb1e94846cb912===. Value: FALSE
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-modal.min.css
+[2025-02-07 10:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 99
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcb8e650-5GU2dP.tmp
+[2025-02-07 10:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-modal.min.css?simply_static_page=75
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-modal.min.css?simply_static_page=75
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:103] Filesize: 3147 bytes
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-modal.min.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcb8e650-5GU2dP.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-modal.min.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:15] [class-ss-page.php:119] Checking Content Identical:6879e4a850807842c3dfb82307a350703ec64822===. Value: FALSE
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/jquery-ui/jquery-ui.min.css
+[2025-02-07 10:09:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 99
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcb9eb94-smQ0Sv.tmp
+[2025-02-07 10:09:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/jquery-ui/jquery-ui.min.css?simply_static_page=76
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/jquery-ui/jquery-ui.min.css?simply_static_page=76
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:103] Filesize: 33437 bytes
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/jquery-ui/jquery-ui.min.css
+[2025-02-07 10:09:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcb9eb94-smQ0Sv.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/jquery-ui/jquery-ui.min.css
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:c5233a494752ce94b0d9321463b2334d41f92400===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc1f468-x1Nnjs.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.css?simply_static_page=77
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.css?simply_static_page=77
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 1696 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc1f468-x1Nnjs.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/tipsy/tipsy.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:ead436829a858966c068cb0a55a35de7e8102b32===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc2e133-J0RIFu.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.css?simply_static_page=78
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.css?simply_static_page=78
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 1380 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc2e133-J0RIFu.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/raty/um-raty.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:36c629e8194fc81c517130d3b12ca4932446fbfe===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/select2.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc3c9cd-rqD2Lt.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/select2.min.css?simply_static_page=79
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/select2/select2.min.css?simply_static_page=79
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 14966 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/select2/select2.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc3c9cd-rqD2Lt.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/select2/select2.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:ae5735562faabd1a2d9803bbd7bf4c502b5e4f51===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-fileupload.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc57d0b-Mab0LN.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-fileupload.min.css?simply_static_page=80
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-fileupload.min.css?simply_static_page=80
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 2963 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-fileupload.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc57d0b-Mab0LN.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-fileupload.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:a0011e3aa39511ea9061472e10787b4ff094373f===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc63bc3-t7gDkM.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.css?simply_static_page=81
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.css?simply_static_page=81
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 873 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc63bc3-t7gDkM.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/um-confirm/um-confirm.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:f23f47067554e00a5734d268581b5bfa7add4088===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc6f7c0-pAulHB.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.min.css?simply_static_page=82
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.min.css?simply_static_page=82
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 2000 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/pickadate/default.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc6f7c0-pAulHB.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:6d7f4e904cc93bab2542f3090aab8b7a1f9ff50a===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.date.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc7c947-gjYCPG.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.date.min.css?simply_static_page=83
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.date.min.css?simply_static_page=83
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 3770 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/pickadate/default.date.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc7c947-gjYCPG.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.date.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:12e617f2061ba8f4c29cd49e1ca34cef4aa53eee===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.time.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc8ad6b-AVHFjn.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.time.min.css?simply_static_page=84
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.time.min.css?simply_static_page=84
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 1452 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/pickadate/default.time.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc8ad6b-AVHFjn.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/pickadate/default.time.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:16] [class-ss-page.php:119] Checking Content Identical:32863ac669f8532c4e19be0e8e2a221a7b7b331f===. Value: FALSE
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-ii.min.css
+[2025-02-07 10:09:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 99
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcc9644e-ncA91Y.tmp
+[2025-02-07 10:09:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-ii.min.css?simply_static_page=85
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-ii.min.css?simply_static_page=85
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:103] Filesize: 35108 bytes
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-ii.min.css
+[2025-02-07 10:09:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcc9644e-ncA91Y.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-ii.min.css
+[2025-02-07 10:09:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:17] [class-ss-page.php:119] Checking Content Identical:303b41d49bc0199e7fdcddfcc082234469e67eb1===. Value: FALSE
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-fa.min.css
+[2025-02-07 10:09:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 99
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcd4cd9e-h3dv3r.tmp
+[2025-02-07 10:09:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-fa.min.css?simply_static_page=86
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-fa.min.css?simply_static_page=86
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:103] Filesize: 24740 bytes
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-fa.min.css
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcd4cd9e-h3dv3r.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/legacy/fonticons/fonticons-fa.min.css
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:17] [class-ss-page.php:119] Checking Content Identical:f3b1eaab24edfa6c5a5f1a7eb2b9d3920f8873b4===. Value: FALSE
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-fontawesome.min.css
+[2025-02-07 10:09:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 99
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcdd4f5f-bqoobA.tmp
+[2025-02-07 10:09:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-fontawesome.min.css?simply_static_page=87
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-fontawesome.min.css?simply_static_page=87
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:103] Filesize: 278530 bytes
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-fontawesome.min.css
+[2025-02-07 10:09:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcdd4f5f-bqoobA.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-fontawesome.min.css
+[2025-02-07 10:09:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:6df0440e981077198358458bbf29d6b2ae7fc138===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/common.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce13270-heGLq7.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/common.min.css?simply_static_page=88
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/common.min.css?simply_static_page=88
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 573 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/common.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce13270-heGLq7.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/common.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:aeac2a8af6e71b212684638f09603f694032349d===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-responsive.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce24170-ZKknCT.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-responsive.min.css?simply_static_page=89
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-responsive.min.css?simply_static_page=89
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 10083 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-responsive.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce24170-ZKknCT.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-responsive.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:0c66d5c02180f34a5aa3bf4b9dce9816ef97a4ad===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-styles.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce3c7d8-zWfVIB.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-styles.min.css?simply_static_page=90
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-styles.min.css?simply_static_page=90
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 21696 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-styles.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce3c7d8-zWfVIB.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-styles.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:5a2f56912801f0cc491c82c2f74b3e6298f18e9d===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce4edb4-IPoNLl.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.css?simply_static_page=91
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.css?simply_static_page=91
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 3768 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce4edb4-IPoNLl.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/libs/cropper/cropper.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:b5408c10fbf81d25c55a572a8520b0189f7c6cb3===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-profile.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce61a1e-Q8KB2m.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-profile.min.css?simply_static_page=92
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-profile.min.css?simply_static_page=92
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 7803 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-profile.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce61a1e-Q8KB2m.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-profile.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:db252aa7dc1dad65594fe866c860b7963ea5aef7===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-account.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce72008-aeYU0i.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-account.min.css?simply_static_page=93
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-account.min.css?simply_static_page=93
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 3735 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-account.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce72008-aeYU0i.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-account.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:6834e32d4cc0da68c1d18545cc0055f6c46a691b===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-misc.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce7da6a-Aee2Lb.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-misc.min.css?simply_static_page=94
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-misc.min.css?simply_static_page=94
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 1656 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-misc.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce7da6a-Aee2Lb.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-misc.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:433ba9ac12344426055d88f407ffd532c8008bcb===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-old-default.min.css
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce8a855-UgsfS5.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-old-default.min.css?simply_static_page=95
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/plugins/ultimate-member/assets/css/um-old-default.min.css?simply_static_page=95
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 5275 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-member/assets/css/um-old-default.min.css
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbce8a855-UgsfS5.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947/wp-content/plugins/ultimate-member/assets/css/um-old-default.min.css
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:ba65a2348c7cb22d2cf00e2edf55eed9a81a85e9===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/wp-json/
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/wp-json/
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/wp-json/wp/v2/pages/79
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/wp-json/wp/v2/pages/79
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/index.php/wp-json/oembed/1.0/embed
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/StudyGroupLagoon/index.php/wp-json/oembed/1.0/embed
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.xml
+[2025-02-07 10:09:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 99
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce98d14-VNzsk0.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.xml?simply_static_page=99
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.xml?simply_static_page=99
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 302 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbce9c43f-UiYfVx.tmp
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947/feed/index.xml
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 302 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-02-07 10:09:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 54 of 99 pages/files
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-07 10:09:18] [class-ss-fetch-urls-task.php:69] Total pages: 99; Pages remaining: 0
+[2025-02-07 10:09:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 99 of 99 pages/files
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2025-02-07 10:09:18] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\WINDOWS\TEMP/67a5dbcea3fee-xRL7O9.tmp
+[2025-02-07 10:09:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/StudyGroupLagoon/1738922959?simply_static_page=0
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/StudyGroupLagoon/1738922959?simply_static_page=0
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:103] Filesize: 302 bytes
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=iso-8859-1
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2025-02-07 10:09:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\WINDOWS\TEMP/67a5dbcea3fee-xRL7O9.tmp to E:\wamp64\www\StudyGroupLagoon/wp-content/uploads\simply-static\temp-files/simply-static-1-1738922947\404/index.html
+[2025-02-07 10:09:18] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2025-02-07 10:09:18] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2025-02-07 10:09:18] [class-ss-page.php:119] Checking Content Identical:a158ff9e57c8c7ce715950686515080e9d6e6a16===. Value: FALSE
+[2025-02-07 10:09:18] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2025-02-07 10:09:18] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2025-02-07 10:09:18] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2025-02-07 10:09:18] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/StudyGroupLagoon/wp-content/uploads/simply-static/temp-files/simply-static-1-1738922947.zip">Click here to download</a>
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-02-07 10:09:18] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-02-07 10:09:18] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-02-07 10:09:18] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:11
